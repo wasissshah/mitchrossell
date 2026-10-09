@@ -1,0 +1,15 @@
+﻿{
+    "name":  "website",
+    "version":  "1.0.0",
+    "main":  "index.js",
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "description":  "",
+    "scripts":  {
+                    "sass":  "sass --no-source-map assets/css/style.scss assets/css/style.css",
+                    "watch":  "npm run sass -- --watch"
+                }
+}
